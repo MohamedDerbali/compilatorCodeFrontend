@@ -42,7 +42,7 @@ function App() {
   });
   const compileAndRunCode = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/compileAndRun', {
+      const response = await axios.post('http://codecompilor.eastus.cloudapp.azure.com/compileAndRun', {
         code: code,
         language: language
       });
