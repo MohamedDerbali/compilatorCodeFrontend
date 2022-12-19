@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+  width: 20vw;
+}
+
+.programmingLanguage {
+  height: 8vmin;
+  width: 7vw;
+  pointer-events: painted;
+}
+
+.programmingLanguage:hover {
+  height: 8vmin;
+  width: 7vw;
+  pointer-events: painted;
+  cursor: pointer;
+  border: 2px solid #744DB8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+  text-align: left;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+.editorLineNumber {
+  font-size: 16px;
+  padding-right: 15px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.languages {
+  padding-top: 5%;
+  width: 100px;
+  padding-left: 0%;
+  padding-right: 2%;
+}
+
+.editorHead {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #282c34;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editorFileName {
+  border: white;
+  font-size: 19px;
+  padding-top: 10px;
+  color: white;
+  font-family: '"Fira code", "Fira Mono", monospace';
+  font-weight: 600;
+  background-color: #744DB8;
+  padding: 10px;
+}
+
+.editorTools {
+  padding-top: 10px;
+  padding-right: 10px;
+  color: white;
+  font-family: '"Fira code", "Fira Mono", monospace';
+  font-weight: 600;
+  padding: 10px;
+}
+
+.toolsIcon {
+  height: 4vh;
+}
+
+.toolsIcon:hover {
+  cursor: pointer;
+  height: 4.5vh;
+}
+
+.toolsIcon::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.output {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  background-color: #282c34;
+  height: 50px;
+  margin-top: 1.4%;
+  height: 536px;
+  color: white;
+  font-family: '"Fira code", "Fira Mono", monospace';
+  font-size: 17px;
+  text-align: left;
+}
+
+.outputComm{
+  color: #998066;
+
+}

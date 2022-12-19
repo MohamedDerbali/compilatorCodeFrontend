@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "prismjs",
+      {
+        "languages": ["js", "css", "markup", "php", "java"],
+        "plugins": ["line-numbers", "show-language"],
+        // "theme": "okaidia",
+        // "theme": "dark",
+        // "theme": "twilight",
+        "theme": "tomorrow",
+        // "theme": "funky",
+        // "theme": "coy",
+        "css": true
+      }
+    ]
+  ]
+}
